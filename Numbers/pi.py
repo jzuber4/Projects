@@ -38,7 +38,6 @@ def calculate_pi(precision):
     # digits of precision essentially double each iteration
     # Again, use extra iterations to make sure
     for i in xrange(int(math.sqrt(precision) + 2)):
-        print 'trace'
         a_next = (a_prev + b_prev) / Decimal('2')
         b_next = (a_prev * b_prev).sqrt()
         t_next = t_prev - p_prev * (a_prev - a_next) ** Decimal('2')
