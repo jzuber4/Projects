@@ -3,7 +3,7 @@ Martyr2’s Mega Project List
 
 Trying to complete all projects from [Martyr2’s Mega Project List](http://www.dreamincode.net/forums/topic/78802-martyr2s-mega-project-ideas-list/).
 
-Thought this would be a cool project to make for the debut of my GitHub account. At this point, I plan to implement many of these in python; perhaps I will complete some in Go. 
+Thought this would be a cool project for my GitHub. At this point, I plan to use python and Go. Who knows, I may pick up another language on the way. Guess I better get started! 
 
 ==============================
 
