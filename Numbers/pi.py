@@ -14,9 +14,12 @@ def user_input():
         precision_str = raw_input('Generate Pi to digit #: ')
         try:
             precision = int(precision_str)
-            break
+            if 0 < precision <= 10000:
+                break
         except:
-            print 'Please input an integer greater than 0'
+            pass
+
+        print 'Please input an integer greater than 0 and up to 10,000'
 
     return precision
 
@@ -26,6 +29,10 @@ Returns a Decimal object containing pi precise to 'precision' digits
 Uses Gauss-Legendre algorithm: en.wikipedia.org/wiki/Gauss-Legendre_algorithm
 """
 def calculate_pi(precision):
+
+    # no decimal
+    if precision == 1:
+        return '3'
 
     # guard against rounding errors
     getcontext().prec = precision + 10
