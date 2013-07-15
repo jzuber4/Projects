@@ -5,7 +5,7 @@ Author: Jimmy Zuber
 import math
 
 # returns list containing prime factors of a number in ascending order
-# returns [1, n] if n is prime
+# returns [n] if n is prime
 def prime_factors(n):
     factors = []
     n = float(n)
