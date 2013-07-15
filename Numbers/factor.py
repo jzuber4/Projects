@@ -12,6 +12,7 @@ def prime_factors(n):
     m = int(math.ceil(n / 2)) + 1
     isPrime = [True for x in range(0, m)]
 
+    # prime number sieve
     isPrime[0] = isPrime[1] = False
     for i in xrange(2, m):
         v = i
@@ -19,19 +20,16 @@ def prime_factors(n):
             v += i
             isPrime[v] = False
 
+    # only use qualified prime numbers
     primes = []
     for i, p in enumerate(isPrime):
         if p:
             primes.append(i)
 
     for i in primes:
-        temp = n
-        while True:
-            temp = temp / i
-            if temp == int(math.ceil(temp)):
-                factors.append(int(i))
-            else:
-                break
+        while n % i == 0:
+            n = n / i
+            factors.append(i)
 
     if len(factors) == 0:
         return [int(n)]
