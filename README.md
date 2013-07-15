@@ -16,9 +16,9 @@ Numbers
 
 [**Prime Factorization**](https://github.com/jzuber4/Projects/blob/master/Numbers/factor.py)– Have the user enter a number and find all Prime Factors (if there are any) and display them.
 
-**Next Prime Number** – Have the program find prime numbers until the user chooses to stop asking for the next one.
+[**Next Prime Number**](https://github.com/jzuber4/Projects/blob/master/Numbers/next_prime.py) – Have the program find prime numbers until the user chooses to stop asking for the next one.
 
-**Find Cost of Tile to Cover W x H Floor** – Calculate the total cost of tile it would take to cover a floor plan of width and height, using a cost entered by the user.
+[**Find Cost of Tile to Cover W x H Floor**](https://github.com/jzuber4/Projects/blob/master/Numbers/tile.py) – Calculate the total cost of tile it would take to cover a floor plan of width, height and cost entered by the user.
 
 **Mortgage Calculator** – Calculate the monthly payments of a fixed term mortgage over given Nth terms at a given interest rate. Also figure out how long it will take the user to pay back the loan.
 
