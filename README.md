@@ -14,7 +14,7 @@ Numbers
 
 [**Fibonacci Sequence**](https://github.com/jzuber4/Projects/blob/master/Numbers/fibonacci.py) – Enter a number and have the program generate the Fibonacci sequence to the Nth number.
 
-**Prime Factorization** – Have the user enter a number and find all Prime Factors (if there are any) and display them.
+[**Prime Factorization**](https://github.com/jzuber4/Projects/blob/master/Numbers/factor.py)– Have the user enter a number and find all Prime Factors (if there are any) and display them.
 
 **Next Prime Number** – Have the program find prime numbers until the user chooses to stop asking for the next one.
 
