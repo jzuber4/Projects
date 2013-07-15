@@ -1,5 +1,5 @@
 """
-Find prime factors of a number, a bit of a naive implementation.
+Find prime factors of a number.
 Author: Jimmy Zuber
 """
 import math
@@ -8,32 +8,20 @@ import math
 # returns [n] if n is prime
 def prime_factors(n):
     factors = []
-    n = float(n)
-    m = int(math.ceil(n / 2)) + 1
-    isPrime = [True for x in range(0, m)]
+    sqrt = math.sqrt(n)
 
-    # prime number sieve
-    isPrime[0] = isPrime[1] = False
-    for i in xrange(2, m):
-        v = i
-        while v + i < m:
-            v += i
-            isPrime[v] = False
-
-    # only use qualified prime numbers
-    primes = []
-    for i, p in enumerate(isPrime):
-        if p:
-            primes.append(i)
-
-    for i in primes:
+    # only need to go until n = 1
+    i = 2
+    while n > 1:
         while n % i == 0:
             n = n / i
             factors.append(i)
+        i += 1
+        if i > sqrt:
+            break
 
     if len(factors) == 0:
-        return [int(n)]
-
+        factors.append(n)
     return factors
 
 def main():
