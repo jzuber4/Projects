@@ -1,7 +1,7 @@
 """
 Change! Albeit less political.
 Uses 'greedy' algorithm (doesn't calculate based on availability or other fanciness)
-Calculates change for a given dollar amount and cost.
+Calculates change for a given amount and cost.
 """
 import sys
 
