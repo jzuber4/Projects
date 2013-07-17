@@ -26,7 +26,7 @@ Numbers
 
 [**Binary to Decimal and Back Converter**](https://github.com/jzuber4/Projects/blob/master/Numbers/binary_decimal.py) – Develop a converter to convert a decimal number to binary or a binary number to its decimal equivalent.
 
-**Calculator** – A simple calculator to do basic operators. Supports most python operators (all logical, comparison, bitwise, and arithmetic operators) as well as parentheses. Supports standard python order of operation (which it parses all itself). 
+[**Calculator**](https://github.com/jzuber4/Projects/blob/master/Numbers/calculator.py) – A simple calculator to do basic operators. Supports most python operators (all logical, comparison, bitwise, and arithmetic operators) as well as parentheses. Supports standard python order of operation (which it parses all itself). 
 
 **Unit Converter (temp, currency, volume, mass and more)** – Converts various units between one another. The user enters the type of unit being entered, the type of unit they want to convert to and then the value. The program will then make the conversion.
 
