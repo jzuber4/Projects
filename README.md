@@ -28,13 +28,13 @@ Numbers
 
 [**Calculator**](https://github.com/jzuber4/Projects/blob/master/Numbers/calculator.py) – A simple calculator to do basic operators. Supports most python operators (all logical, comparison, bitwise, and arithmetic operators) as well as parentheses. Supports standard python order of operation (which it parses all itself). 
 
-**Unit Converter (temp, currency, volume, mass and more)** – Converts various units between one another. The user enters the type of unit being entered, the type of unit they want to convert to and then the value. The program will then make the conversion.
+[**Unit Converter (temperature and currency)**](https://github.com/jzuber4/Projects/blob/master/Numbers/convert.py) – Converts various units between one another. The user enters the type of unit being entered, the type of unit they want to convert to and then the value. The program will then make the conversion.
 
 **Alarm Clock** – A simple clock where it plays a sound after X number of minutes/seconds or at a particular time.
 
 **Distance Between Two Cities** – Calculates the distance between two cities and allows the user to specify a unit of distance. This program may require finding coordinates for the cities like latitude and longitude.
 
-**Credit Card Validator** – Takes in a credit card number from a common credit card vendor (Visa, MasterCard, American Express, Discoverer) and validates it to make sure that it is a valid number (look into how credit cards use a checksum).
+[**Credit Card Validator**](https://github.com/jzuber4/Projects/blob/master/Numbers/credit_card.py) – Takes in a credit card number from a common credit card vendor (Visa, MasterCard, American Express, Discoverer) and validates it to make sure that it is a valid number.
 
 **Tax Calculator** – Asks the user to enter a cost and either a country or state tax. It then returns the tax plus the total cost with tax.
 

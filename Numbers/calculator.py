@@ -8,7 +8,7 @@ Implements:
     comparisons: < <= == != > >=
 A bit hard-coded to fit the specific circumstances, but I
 would use yacc or something if I wanted powerful/actual control
-over syntax.
+over syntax. Tested against the python command line.
 Author: Jimmy Zuber
 """
 import re

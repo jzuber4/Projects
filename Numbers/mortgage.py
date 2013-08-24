@@ -8,10 +8,8 @@ Author: Jimmy Zuber
 import sys
 
 def main():
-    # life is too short to write input validation code for toy projects
-    # but I do it anyway :)
     if len(sys.argv) < 4:
-        print "usage: python mortgage.py P N r"
+        print "usage: python mortgage.py Principal Years Interest"
         return
     try:
         P, N, r = float(sys.argv[1]), float(sys.argv[2]), float(sys.argv[3])
@@ -19,11 +17,13 @@ def main():
         print "P, N, and r must be numbers."
         return
 
-    # percentage -> fraction (should already be in term form)
-    # i.e. monthly, not yearly fraction if payments are monthly
+    # percentage -> fraction
     r /= 100
+    # years -> months
+    N *= 12
+    r /= 12
 
     val = r * P / (1 - ((1 + r) ** -N))
-    print "Monthly payment =", val
+    print "Monthly payment = %.2f" % val
 
 main()
