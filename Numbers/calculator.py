@@ -6,9 +6,7 @@ Implements:
     unary: +, -, ~, not
     boolean: and or not
     comparisons: < <= == != > >=
-A bit hard-coded to fit the specific circumstances, but I
-would use yacc or something if I wanted powerful/actual control
-over syntax. Tested against the python command line.
+Tested against the python command line.
 Author: Jimmy Zuber
 """
 import re
